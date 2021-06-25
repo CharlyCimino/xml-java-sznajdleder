@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <connection-pool>
     <jdbc>
-        <conection name="HSQLDB"
+        <connection name="HSQLDB"
                    usr="sa"
                    pwd=""
                    driver="org.hsqldb.jdbcDriver"
                    url="jdbc:hsqldb:hsql://localhost/xdb" />
-        <conection name="ORACLE"
+        <connection name="ORACLE"
                    usr="scott"
                    pwd="tiger"
                    driver="jdbc.oracle.driver.OracleDriver"
